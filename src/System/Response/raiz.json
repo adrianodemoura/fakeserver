@@ -1,0 +1,9 @@
+{
+    "aplicação": "APP_NAME",
+    "ambiente": "NODE_ENV",
+    "host": "HOST",
+    "porta" : "APP_PORT",
+    "versão": "VERSION",
+    "debug": "DEBUG",
+    "user-agent": "USER_AGENT"
+}

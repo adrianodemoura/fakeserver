@@ -39,4 +39,6 @@ exemplo: log( 'seu conteúdo aqui', 'debug teste' ), será criado o arquivo `/st
 - decryptPassword: retorna a variável desencripitada.
 
 ### Testes
-crie seus testes em `/tests/{modulo}/`, veja os exemplos em `/tests/system/`.
+- crie seus testes em `/tests/{modulo}/`, veja os exemplos em `/tests/system/`.
+- para rodar os testes: `$ yarn test -i`
+- para rodar um teste específico: `$ yarn test tests/system/raiz.test.js`

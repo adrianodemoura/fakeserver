@@ -3,15 +3,17 @@
 class PainelController {
 
     async index(req, res) {
-        return res.status(200).json({
-            'aplicação': process.env.APP_NAME,
-            'ambiente': process.env.NODE_ENV,
-            'host': process.env.HOST,
-            'porta' : process.env.APP_PORT, 
-            'versão': process.env.VERSION, 
-            'debug': process.env.DEBUG,
-            'user-agent': process.env.USER_AGENT
-        })
+        const resume = JSON.parse( await getFile( 'System/Response/raiz' ) )
+
+        resume["aplicação"] = process.env.APP_NAME
+        resume["ambiente"] = process.env.NODE_ENV
+        resume["host"] = process.env.HOST
+        resume["porta"] = process.env.APP_PORT
+        resume["versão"] = process.env.VERSION
+        resume["debug"] = process.env.DEBUG
+        resume["user-agent"] = process.env.USER_AGENT
+
+        return res.status( 200 ).json( resume )
     }
 }
 
