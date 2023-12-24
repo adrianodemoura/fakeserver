@@ -1,4 +1,5 @@
 # Fake Server
+Servidor para retornar dados fake. Excelente para simular respostas das APIs de seus clientes.
 
 ## Requisitos
 
