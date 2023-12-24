@@ -12,7 +12,7 @@ class Customers {
 
         if (! req.params[0] ) return this.getListCostumers(req, res )
 
-        if (! req.params[0] === 'B13E21F983754C3DA24DFBA97C685DD22') return res.status( 401 ).json( {'message': 'Id do cliente inválido'})
+        if ( req.params[0] !== 'B13E21F983754C3DA24DFBA97C685DD22') return res.status( 401 ).json( {'message': 'Id do cliente inválido'})
 
         const resume = JSON.parse( await getFile( 'Iugu/Response/get-costumers-id' ) )
 
@@ -38,6 +38,10 @@ class Customers {
     }
 
     async postCostumers( req, res ) {
+
+        if(! req.body.name ) return res.status( 401 ).json( { 'error': 'Nome inválido!' } )
+        if(! req.body.email ) return res.status( 401 ).json( { 'error': 'e-mail inválido!' } )
+
         const resume = JSON.parse( await getFile( 'Iugu/Response/post-costumers' ) )
 
         return res.status( 200 ).json( resume )

@@ -5,12 +5,12 @@ const AuthBasic = require( "./Midlewares/AuthBasic" )
 const routes = new Router()
 
 // SYSTEM
-routes.get( "/", ( req, res ) => { require( `./System/Painel` ).index( req, res ) } )
+routes.get( "/",                              ( req, res ) => { require( `./System/Painel` ).index( req, res ) } )
 
 // IUGU - GET
-routes.get( "/v1", ( req, res ) => { require( `./System/Painel` ).index( req, res ) } )
-routes.get( "/v1/costumers",       AuthBasic, ( req, res ) => { require( './Iugu/customers' ).getCostumers( req, res )  } )
+routes.get( "/v1",                            ( req, res ) => { require( `./System/Painel` ).index( req, res ) } )
 routes.get( "/v1/costumers/*",     AuthBasic, ( req, res ) => { require( './Iugu/customers' ).getCostumersId( req, res )  } )
+routes.get( "/v1/costumers",       AuthBasic, ( req, res ) => { require( './Iugu/customers' ).getCostumers( req, res )  } )
 routes.get( "/v1/plans",           AuthBasic, ( req, res ) => { require( './Iugu/customers' ).getPlans( req, res )  } )
 routes.get( "/v1/subscriptions",   AuthBasic, ( req, res ) => { require( './Iugu/customers' ).getSubscriptions( req, res )  } )
 // IUGU - POST
