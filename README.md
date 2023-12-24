@@ -9,8 +9,8 @@
 ### Instalação 
 ##### Código
 ```shell
-$ git clone [seu-usuario]@deskfacil.com:/home/adrianoc/GitRepo/fake-server
-$ cd fake-server
+$ git clone git@github.com:adrianodemoura/fakeserver.git
+$ cd fakeserver
 $ yarn install
 ```
 ##### Para rodar a aplicação
