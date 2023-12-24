@@ -1,0 +1,23 @@
+{
+	"id": "B13E21F983754C3DA24DFBA97C685DD2",
+	"email": "adrianodemoura@gmail.com",
+	"name": "Adriano Moura",
+	"notes": "",
+	"created_at": "2023-12-12T16:40:59-03:00",
+	"updated_at": "2023-12-12T16:40:59-03:00",
+	"cc_emails": "",
+	"cpf_cnpj": "02557776637",
+	"zip_code": null,
+	"number": null,
+	"complement": null,
+	"phone": "985966797",
+	"phone_prefix": "31",
+	"custom_variables": [],
+	"payment_methods": [],
+	"default_payment_method_id": null,
+	"proxy_payments_from_customer_id": null,
+	"city": null,
+	"state": null,
+	"district": null,
+	"street": null
+}

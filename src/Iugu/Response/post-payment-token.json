@@ -1,0 +1,13 @@
+{
+    "id": "d09ee4d2-c614-41fc-852e-ccfd07eac1f8",
+    "method": "credit_card",
+    "extra_info": {
+        "bin": "411111",
+        "year": 2025,
+        "month": 1,
+        "brand": "VISA",
+        "holder_name": "Maria Gabriela",
+        "display_number": "XXXX-XXXX-XXXX-1111"
+    },
+    "test": true
+}

@@ -1,0 +1,39 @@
+{
+  "name": "fake-server",
+  "version": "1.0.1",
+  "description": "Servidor fake",
+  "main": "src/server.js",
+  "author": "Adriano Moura",
+  "license": "MIT",
+  "scripts": {
+    "start": "NODE_ENV=product node src/server.js",
+    "start:local": "NODE_ENV=local nodemon src/server.js",
+    "start:desenv": "NODE_ENV=desenv node src/server.js",
+    "start:homologa": "NODE_ENV=homologa node src/server.js",
+    "test": "NODE_ENV=test jest",
+    "cmd": "NODE_ENV=product node",
+    "cmd:local": "NODE_ENV=local node",
+    "cmd:desenv": "NODE_ENV=desenv node",
+    "cmd:homologa": "NODE_ENV=homologa node",
+    "format": "prettier --write ."
+  },
+  "keywords": [
+    "api",
+    "server",
+    "fake"
+  ],
+  "dependencies": {
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv-flow": "^4.0.1",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "jest": "^28.1.0",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.6.1",
+    "supertest": "^6.2.2"
+  }
+}

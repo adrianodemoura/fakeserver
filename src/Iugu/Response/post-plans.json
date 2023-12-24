@@ -1,0 +1,28 @@
+{
+	"id": "9B7C02E581224A6086CE8B0BF36D9295",
+	"name": "PlanoTest003",
+	"identifier": "planoteste003",
+	"interval": 30,
+	"interval_type": "months",
+	"created_at": "2023-12-19T00:10:18-03:00",
+	"updated_at": "2023-12-19T00:10:18-03:00",
+	"prices": [
+		{
+			"id": "FBEDAC390C8443778DC1CF48B4C31346",
+			"currency": "BRL",
+			"value_cents": 25000,
+			"plan_id": "9B7C02E581224A6086CE8B0BF36D9295",
+			"created_at": "2023-12-19T00:10:18-03:00",
+			"updated_at": "2023-12-19T00:10:18-03:00"
+		}
+	],
+	"features": [],
+	"payable_with": [
+		"pix",
+		"credit_card",
+		"bank_slip"
+	],
+	"max_cycles": 0,
+	"billing_days": null,
+	"invoice_max_installments": null
+}

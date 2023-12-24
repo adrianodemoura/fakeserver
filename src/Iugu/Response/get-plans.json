@@ -1,0 +1,86 @@
+{
+    "items": [
+        {
+            "id": "9B7C02E581224A6086CE8B0BF36D9295",
+            "name": "PlanoTest003",
+            "identifier": "planoteste003",
+            "interval": 30,
+            "interval_type": "months",
+            "created_at": "2023-12-19T00:10:18-03:00",
+            "updated_at": "2023-12-19T00:10:18-03:00",
+            "prices": [
+                {
+                    "id": "FBEDAC390C8443778DC1CF48B4C31346",
+                    "currency": "BRL",
+                    "value_cents": 25000,
+                    "created_at": "2023-12-19T00:10:18-03:00",
+                    "updated_at": "2023-12-19T00:10:18-03:00"
+                }
+            ],
+            "features": [],
+            "payable_with": [
+                "pix",
+                "credit_card",
+                "bank_slip"
+            ],
+            "max_cycles": 0,
+            "billing_days": null,
+            "invoice_max_installments": null
+        },
+        {
+            "id": "4DB8A3C1A45441D2B120C7F96D5790CF",
+            "name": "PlanoTest002",
+            "identifier": "planoteste002",
+            "interval": 30,
+            "interval_type": "months",
+            "created_at": "2023-12-18T23:59:19-03:00",
+            "updated_at": "2023-12-18T23:59:19-03:00",
+            "prices": [
+                {
+                    "id": "CDDAF6C9204542AD86F6804A9EF0ACAE",
+                    "currency": "BRL",
+                    "value_cents": 15000,
+                    "created_at": "2023-12-18T23:59:19-03:00",
+                    "updated_at": "2023-12-18T23:59:19-03:00"
+                }
+            ],
+            "features": [],
+            "payable_with": [
+                "pix",
+                "credit_card",
+                "bank_slip"
+            ],
+            "max_cycles": 0,
+            "billing_days": null,
+            "invoice_max_installments": null
+        },
+        {
+            "id": "2D2E74E045134A08AB3FE65C1E364642",
+            "name": "PlanoTest001",
+            "identifier": "planoteste001",
+            "interval": 30,
+            "interval_type": "months",
+            "created_at": "2023-12-14T15:30:27-03:00",
+            "updated_at": "2023-12-14T15:30:27-03:00",
+            "prices": [
+                {
+                    "id": "074D5E3DCFC0491F95A8BAD28E252756",
+                    "currency": "BRL",
+                    "value_cents": 30000,
+                    "created_at": "2023-12-14T15:30:27-03:00",
+                    "updated_at": "2023-12-14T15:30:27-03:00"
+                }
+            ],
+            "features": [],
+            "payable_with": [
+                "pix",
+                "credit_card",
+                "bank_slip"
+            ],
+            "max_cycles": 0,
+            "billing_days": null,
+            "invoice_max_installments": null
+        }
+    ],
+    "totalItems": 3
+}

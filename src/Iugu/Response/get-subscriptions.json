@@ -1,0 +1,263 @@
+{
+    "items": [
+        {
+            "id": "3C77DE39C80140AF9EA355428101130A",
+            "suspended": false,
+            "plan_identifier": "planoteste003",
+            "price_cents": 25000,
+            "currency": "BRL",
+            "features": {},
+            "customer_name": "Adriano Moura",
+            "customer_email": "adrianodemoura@gmail.com",
+            "cycled_at": "2023-12-23",
+            "credits_min": 0,
+            "credits_cycle": null,
+            "payable_with": [
+                "pix",
+                "credit_card",
+                "bank_slip"
+            ],
+            "ignore_due_email": null,
+            "max_cycles": 0,
+            "cycles_count": 0,
+            "recent_invoices": [
+                {
+                    "id": "B615BE7D19394145A22BBD17F425A6DC",
+                    "due_date": "2023-12-23",
+                    "status": "pending",
+                    "total": "R$ 250,00",
+                    "secure_url": "https://faturas.iugu.com/b615be7d-1939-4145-a22b-bd17f425a6dc-909e"
+                }
+            ],
+            "subitems": [],
+            "logs": [
+                {
+                    "id": "1108C156E2574D26862A2B2ED893C2E0",
+                    "description": "Invoice created",
+                    "notes": "Invoice created with items:  1x Ativação de Assinatura: PlanoTest003 = R$ 250,00;",
+                    "subscription_changes": "{\"plan_identifier\":[null,\"planoteste003\"],\"customer_id\":[null,\"B13E21F983754C3DA24DFBA97C685DD2\"],\"price_cents\":[0,25000],\"interval\":[null,30],\"interval_type\":[null,\"months\"],\"payable_with\":[null,\"pix,credit_card,bank_slip\"],\"created_at\":[null,\"2023-12-23T15:16:58-03:00\"],\"updated_at\":[null,\"2023-12-23T15:16:58-03:00\"],\"id\":[null,\"3C77DE39C80140AF9EA355428101130A\"]}",
+                    "created_at": "2023-12-23T15:16:59-03:00"
+                },
+                {
+                    "id": "7FC2E8CE35944B1BB386080BC2D43528",
+                    "description": "Subscription Created",
+                    "notes": "Subscription Created ",
+                    "subscription_changes": "{\"plan_identifier\":[null,\"planoteste003\"],\"customer_id\":[null,\"B13E21F983754C3DA24DFBA97C685DD2\"],\"price_cents\":[0,25000],\"interval\":[null,30],\"interval_type\":[null,\"months\"],\"payable_with\":[null,\"pix,credit_card,bank_slip\"],\"created_at\":[null,\"2023-12-23T15:16:58-03:00\"],\"updated_at\":[null,\"2023-12-23T15:16:58-03:00\"],\"id\":[null,\"3C77DE39C80140AF9EA355428101130A\"]}",
+                    "created_at": "2023-12-23T15:16:58-03:00"
+                }
+            ],
+            "custom_variables": [],
+            "expires_at": null,
+            "created_at": "2023-12-23T15:16:58-03:00",
+            "updated_at": "2023-12-23T15:16:59-03:00",
+            "customer_id": "B13E21F983754C3DA24DFBA97C685DD2",
+            "plan_name": "PlanoTest003",
+            "customer_ref": "Adriano Moura",
+            "plan_ref": "PlanoTest003",
+            "active": true,
+            "two_step": null,
+            "suspend_on_invoice_expired": null,
+            "in_trial": null,
+            "credits": 0,
+            "credits_based": false
+        },
+        {
+            "id": "5EF7C9481F12470988DB44C9E782D79F",
+            "suspended": false,
+            "plan_identifier": "planoteste003",
+            "price_cents": 25000,
+            "currency": "BRL",
+            "features": {},
+            "customer_name": "Adriano Moura",
+            "customer_email": "adrianodemoura@gmail.com",
+            "cycled_at": "2023-12-19",
+            "credits_min": 0,
+            "credits_cycle": null,
+            "payable_with": [
+                "pix",
+                "credit_card",
+                "bank_slip"
+            ],
+            "ignore_due_email": null,
+            "max_cycles": 0,
+            "cycles_count": 0,
+            "recent_invoices": [
+                {
+                    "id": "7047B284BF1649D5BFAAEE409F83224D",
+                    "due_date": "2023-12-19",
+                    "status": "paid",
+                    "total": "R$ 250,00",
+                    "secure_url": "https://faturas.iugu.com/7047b284-bf16-49d5-bfaa-ee409f83224d-269f"
+                }
+            ],
+            "subitems": [],
+            "logs": [
+                {
+                    "id": "CC687B2608B9404598D93AE3D962808C",
+                    "description": "Invoice created",
+                    "notes": "Invoice created with items:  1x Ativação de Assinatura: PlanoTest003 = R$ 250,00;",
+                    "subscription_changes": "{\"plan_identifier\":[null,\"planoteste003\"],\"customer_id\":[null,\"B13E21F983754C3DA24DFBA97C685DD2\"],\"price_cents\":[0,25000],\"interval\":[null,30],\"interval_type\":[null,\"months\"],\"payable_with\":[null,\"pix,credit_card,bank_slip\"],\"created_at\":[null,\"2023-12-19T00:11:45-03:00\"],\"updated_at\":[null,\"2023-12-19T00:11:45-03:00\"],\"id\":[null,\"5EF7C9481F12470988DB44C9E782D79F\"]}",
+                    "created_at": "2023-12-19T00:11:47-03:00"
+                },
+                {
+                    "id": "FB3FC70B42D84A1D960DC6405313C3EA",
+                    "description": "Subscription Created",
+                    "notes": "Subscription Created ",
+                    "subscription_changes": "{\"plan_identifier\":[null,\"planoteste003\"],\"customer_id\":[null,\"B13E21F983754C3DA24DFBA97C685DD2\"],\"price_cents\":[0,25000],\"interval\":[null,30],\"interval_type\":[null,\"months\"],\"payable_with\":[null,\"pix,credit_card,bank_slip\"],\"created_at\":[null,\"2023-12-19T00:11:45-03:00\"],\"updated_at\":[null,\"2023-12-19T00:11:45-03:00\"],\"id\":[null,\"5EF7C9481F12470988DB44C9E782D79F\"]}",
+                    "created_at": "2023-12-19T00:11:46-03:00"
+                }
+            ],
+            "custom_variables": [],
+            "expires_at": "2026-06-19",
+            "created_at": "2023-12-19T00:11:45-03:00",
+            "updated_at": "2023-12-19T00:12:51-03:00",
+            "customer_id": "B13E21F983754C3DA24DFBA97C685DD2",
+            "plan_name": "PlanoTest003",
+            "customer_ref": "Adriano Moura",
+            "plan_ref": "PlanoTest003",
+            "active": true,
+            "two_step": null,
+            "suspend_on_invoice_expired": null,
+            "in_trial": null,
+            "credits": 0,
+            "credits_based": false
+        },
+        {
+            "id": "D092CB3449844D2582C03B75CA886FE4",
+            "suspended": false,
+            "plan_identifier": "planoteste002",
+            "price_cents": 15000,
+            "currency": "BRL",
+            "features": {},
+            "customer_name": "Adriano Moura",
+            "customer_email": "adrianodemoura@gmail.com",
+            "cycled_at": "2023-12-19",
+            "credits_min": 0,
+            "credits_cycle": null,
+            "payable_with": [
+                "pix",
+                "credit_card",
+                "bank_slip"
+            ],
+            "ignore_due_email": null,
+            "max_cycles": 0,
+            "cycles_count": 0,
+            "recent_invoices": [
+                {
+                    "id": "69DF40F9DF4A4C72856208771B537511",
+                    "due_date": "2023-12-19",
+                    "status": "paid",
+                    "total": "R$ 150,00",
+                    "secure_url": "https://faturas.iugu.com/69df40f9-df4a-4c72-8562-08771b537511-4083"
+                }
+            ],
+            "subitems": [],
+            "logs": [
+                {
+                    "id": "C51AC919AF3B4A76B0AD69530FC20796",
+                    "description": "Invoice created",
+                    "notes": "Invoice created with items:  1x Ativação de Assinatura: PlanoTest002 = R$ 150,00;",
+                    "subscription_changes": "{\"plan_identifier\":[null,\"planoteste002\"],\"customer_id\":[null,\"B13E21F983754C3DA24DFBA97C685DD2\"],\"price_cents\":[0,15000],\"interval\":[null,30],\"interval_type\":[null,\"months\"],\"payable_with\":[null,\"pix,credit_card,bank_slip\"],\"created_at\":[null,\"2023-12-19T00:00:15-03:00\"],\"updated_at\":[null,\"2023-12-19T00:00:15-03:00\"],\"id\":[null,\"D092CB3449844D2582C03B75CA886FE4\"]}",
+                    "created_at": "2023-12-19T00:00:16-03:00"
+                },
+                {
+                    "id": "5D823A5D429D49949DA2898C8F94C0AE",
+                    "description": "Subscription Created",
+                    "notes": "Subscription Created ",
+                    "subscription_changes": "{\"plan_identifier\":[null,\"planoteste002\"],\"customer_id\":[null,\"B13E21F983754C3DA24DFBA97C685DD2\"],\"price_cents\":[0,15000],\"interval\":[null,30],\"interval_type\":[null,\"months\"],\"payable_with\":[null,\"pix,credit_card,bank_slip\"],\"created_at\":[null,\"2023-12-19T00:00:15-03:00\"],\"updated_at\":[null,\"2023-12-19T00:00:15-03:00\"],\"id\":[null,\"D092CB3449844D2582C03B75CA886FE4\"]}",
+                    "created_at": "2023-12-19T00:00:15-03:00"
+                }
+            ],
+            "custom_variables": [],
+            "expires_at": "2026-06-19",
+            "created_at": "2023-12-19T00:00:15-03:00",
+            "updated_at": "2023-12-19T00:04:28-03:00",
+            "customer_id": "B13E21F983754C3DA24DFBA97C685DD2",
+            "plan_name": "PlanoTest002",
+            "customer_ref": "Adriano Moura",
+            "plan_ref": "PlanoTest002",
+            "active": true,
+            "two_step": null,
+            "suspend_on_invoice_expired": null,
+            "in_trial": null,
+            "credits": 0,
+            "credits_based": false
+        },
+        {
+            "id": "D26A7CE6F4DB4B1AAD6C6E41010F0E27",
+            "suspended": false,
+            "plan_identifier": "planoteste001",
+            "price_cents": 30000,
+            "currency": "BRL",
+            "features": {},
+            "customer_name": "Adriano Moura",
+            "customer_email": "adrianodemoura@gmail.com",
+            "cycled_at": "2023-12-14",
+            "credits_min": 0,
+            "credits_cycle": null,
+            "payable_with": [
+                "pix",
+                "credit_card",
+                "bank_slip"
+            ],
+            "ignore_due_email": null,
+            "max_cycles": 0,
+            "cycles_count": 0,
+            "recent_invoices": [
+                {
+                    "id": "F015163C1EC74887A82BE5C0761F42E0",
+                    "due_date": "2023-12-14",
+                    "status": "paid",
+                    "total": "R$ 300,00",
+                    "secure_url": "https://faturas.iugu.com/f015163c-1ec7-4887-a82b-e5c0761f42e0-4874"
+                }
+            ],
+            "subitems": [],
+            "logs": [
+                {
+                    "id": "D0133AE303DB4A6889105D1941039D5E",
+                    "description": "Invoice created",
+                    "notes": "Invoice created with items:  1x Ativação de Assinatura: PlanoTest001 = R$ 300,00;",
+                    "subscription_changes": "{\"plan_identifier\":[null,\"planoteste001\"],\"customer_id\":[null,\"B13E21F983754C3DA24DFBA97C685DD2\"],\"price_cents\":[0,30000],\"interval\":[null,30],\"interval_type\":[null,\"months\"],\"payable_with\":[null,\"pix,credit_card,bank_slip\"],\"created_at\":[null,\"2023-12-14T15:34:30-03:00\"],\"updated_at\":[null,\"2023-12-14T15:34:30-03:00\"],\"id\":[null,\"D26A7CE6F4DB4B1AAD6C6E41010F0E27\"]}",
+                    "created_at": "2023-12-14T15:34:30-03:00"
+                },
+                {
+                    "id": "17E1B05BECE940E99AA83BB24D4CAC72",
+                    "description": "Subscription Created",
+                    "notes": "Subscription Created ",
+                    "subscription_changes": "{\"plan_identifier\":[null,\"planoteste001\"],\"customer_id\":[null,\"B13E21F983754C3DA24DFBA97C685DD2\"],\"price_cents\":[0,30000],\"interval\":[null,30],\"interval_type\":[null,\"months\"],\"payable_with\":[null,\"pix,credit_card,bank_slip\"],\"created_at\":[null,\"2023-12-14T15:34:30-03:00\"],\"updated_at\":[null,\"2023-12-14T15:34:30-03:00\"],\"id\":[null,\"D26A7CE6F4DB4B1AAD6C6E41010F0E27\"]}",
+                    "created_at": "2023-12-14T15:34:30-03:00"
+                }
+            ],
+            "custom_variables": [],
+            "expires_at": "2026-06-14",
+            "created_at": "2023-12-14T15:34:30-03:00",
+            "updated_at": "2023-12-18T23:39:29-03:00",
+            "customer_id": "B13E21F983754C3DA24DFBA97C685DD2",
+            "plan_name": "PlanoTest001",
+            "customer_ref": "Adriano Moura",
+            "plan_ref": "PlanoTest001",
+            "active": true,
+            "two_step": null,
+            "suspend_on_invoice_expired": null,
+            "in_trial": null,
+            "credits": 0,
+            "credits_based": false
+        }
+    ],
+    "facets": {
+        "due": {
+            "_type": "filter",
+            "count": 0
+        },
+        "active": {
+            "_type": "filter",
+            "count": 4
+        },
+        "suspended": {
+            "_type": "filter",
+            "count": 0
+        }
+    },
+    "totalItems": 4
+}

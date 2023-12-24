@@ -1,0 +1,17 @@
+{
+    "message": "Autorizado",
+    "errors": {},
+    "status": "captured",
+    "info_message": "Transação capturada",
+    "reversible": null,
+    "token": "000000000000000000000000000000000000001",
+    "brand": null,
+    "bin": null,
+    "issuer": null,
+    "success": true,
+    "url": "https://faturas.iugu.com/7047b284-bf16-49d5-bfaa-ee409f83224d-269f",
+    "pdf": "https://faturas.iugu.com/7047b284-bf16-49d5-bfaa-ee409f83224d-269f.pdf",
+    "identification": null,
+    "invoice_id": "7047B284BF1649D5BFAAEE409F83224D",
+    "LR": "00"
+}
