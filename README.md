@@ -1,29 +1,29 @@
 # Fake Server
 
-### Requisitos
+## Requisitos
 
 -   node
 -   yarn
 
 
-### Instalação 
-##### Código
+## Instalação 
+### Código
 ```shell
 $ git clone git@github.com:adrianodemoura/fakeserver.git
 $ cd fakeserver
 $ yarn install
 ```
-##### Para rodar a aplicação
+### Para rodar a aplicação
 ```shell
 $ yarn start
 ou
 $ yarn start:local
 ```
 
-##### Customizações
-> Crie seu retorno fake, dentro do diretório src, não esqueça também de configurar suas rotas no arquivo `routes.js`
+### Customizações
+Crie as rotas de seu seu retorno fake em `src/routes/js`
 
-##### Funções Globais
+### Funções Globais
 - setLog: escreve a mensagem em arquivo dentro de `storage/logs`, o nome do 
 arquivo será a data no formato "ANO-MES-DIA_filename"
 exemplo: log( 'testeo aqui', 'nome do arquivo' )
