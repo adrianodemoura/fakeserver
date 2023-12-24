@@ -3,7 +3,7 @@
 class Customers {
 
     async index(req, res) {
-        const resume = { message: 'aqui é iugu-costomers...'}
+        const resume = { message: 'aqui é iugu-customers...'}
 
         return res.status(200).json( resume )
     }
