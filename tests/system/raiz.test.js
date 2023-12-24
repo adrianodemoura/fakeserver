@@ -18,9 +18,11 @@ describe( "sobre o serviço get-plans", () => {
 
         await request( app )
         .get( "/" )
+        .set( "Content-type", "application/json" )
+        .set( "Authorization", `Basic ${process.env.APP_TOKEN_IUGU}` )
         .then( ( res ) => {
-            expect( res.body.message ).toBe(  'O Token não foi informado!' )
-            expect( res.status ).toBe( 403 )
+            expect( !!res.body.debug.length ).toBe( true )
+            expect( res.status ).toBe( 200 )
         } )
     } )
 
