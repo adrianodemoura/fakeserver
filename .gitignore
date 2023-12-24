@@ -18,5 +18,7 @@ storage/cache/*
 !storage/logs/empty
 !storage/cache/empty
 
-#
-version.txt
+# tests
+tests/*
+
+!tests/system/*
