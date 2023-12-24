@@ -1,7 +1,5 @@
 'use strict'
 
-const fs = require( 'fs' )
-
 class Customers {
 
     async index(req, res) {
