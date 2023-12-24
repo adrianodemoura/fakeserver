@@ -30,10 +30,13 @@ exemplo: log( 'seu conteúdo aqui', 'debug teste' ), será criado o arquivo `/st
 
 - getFile: lê um arquivo texto para uma variável.
 
-- dump: printa na tela o texto desajado.
+- dump: printa na tela o texto desejado.
 
 - dd: printa na tela o texto desejado e interrompe o fluxo.
 
 - encryptPassword: retorna uma variável encripitada.
 
 - decryptPassword: retorna a variável desencripitada.
+
+### Testes
+crie seus testes em `/tests/{modulo}/`, veja os exemplos em `/tests/system/`.
