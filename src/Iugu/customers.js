@@ -48,25 +48,38 @@ class Customers {
     }
 
     async postPlans( req, res ) {
+
+        if(! req.body.name ) return res.status( 401 ).json( { 'error': 'Nome inválido!' } )
+        if(! req.body.identifier ) return res.status( 401 ).json( { 'error': 'Identificador inválido!' } )
+
         const resume = JSON.parse( await getFile( 'Iugu/Response/post-plans' ) )
 
         return res.status( 200 ).json( resume )
     }
 
     async postSubscriptions( req, res ) {
+
+        if(! req.body.plan_identifier ) return res.status( 401 ).json( { 'error': 'Identificador do Plano Inválido!' } )
+        
         const resume = JSON.parse( await getFile( 'Iugu/Response/post-subscriptions' ) )
 
-        return res.status(200).json( resume )
+        return res.status( 200 ).json( resume )
     }
 
     async postPaymentToken( req, res ) {
+        
+        if(! req.body.method ) return res.status( 401 ).json( { 'error': 'Método inválido!' } )
+
         const resume = JSON.parse( await getFile( 'Iugu/Response/post-payment-token' ) )
 
-        return res.status(200).json( resume )
+        return res.status( 200 ).json( resume )
     }
 
     async postCharge(req, res) {
-        const resume = JSON.parse( await getFile( 'uugu/Response/post-charge' ) )
+
+        if(! req.body.token ) return res.status( 401 ).json( { 'error': 'Token inválido!' } )
+
+        const resume = JSON.parse( await getFile( 'Iugu/Response/post-charge' ) )
 
         return res.status(200).json( resume )
     }
