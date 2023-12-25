@@ -6,6 +6,7 @@ const routes = new Router()
 
 // SYSTEM
 routes.get( "/",                              ( req, res ) => { require( `./System/Painel` ).index( req, res ) } )
+routes.get( "/get-citys-list",                ( req, res ) => { require( `./System/Painel` ).getCitysList( req, res ) } )
 
 // IUGU - GET
 routes.get( "/v1",                            ( req, res ) => { require( `./System/Painel` ).index( req, res ) } )

@@ -15,6 +15,13 @@ class PainelController {
 
         return res.status( 200 ).json( resume )
     }
+
+    async getCitysList( req, res ) {
+
+        const resume = JSON.parse( await getFile( 'System/Response/get-citys-list' ) )
+
+        return res.status( 200 ).json( resume )
+    }
 }
 
 module.exports = new PainelController()
