@@ -8,18 +8,14 @@ class Customers {
         return res.status(200).json( resume )
     }
 
-    async getCostumersId( req, res ) {
-
-        if (! req.params[0] ) return this.getListCostumers(req, res )
-
-        if ( req.params[0] !== 'B13E21F983754C3DA24DFBA97C685DD22') return res.status( 401 ).json( {'message': 'Id do cliente inválido'})
+    async getCustomersId( req, res ) {
 
         const resume = JSON.parse( await getFile( 'Iugu/Response/get-costumers-id' ) )
 
         return res.status( 200 ).json( resume )
     }
 
-    async getCostumers( req, res ) {
+    async getCustomers( req, res ) {
         const resume = JSON.parse( await getFile('Iugu/Response/get-costumers-list') )
 
         return res.status( 200 ).json( resume )
@@ -31,18 +27,25 @@ class Customers {
         return res.status( 200 ).json( resume )
     }
 
+    async getPlanId( req, res ) {
+
+        const resume = JSON.parse( await getFile( 'Iugu/Response/get-plan-id' ) )
+
+        return res.status( 200 ).json( resume )
+    }
+
     async getPlans( req, res ) {
         const resume = JSON.parse( await getFile( 'Iugu/Response/get-plans' ) )
 
         return res.status( 200 ).json( resume )
     }
 
-    async postCostumers( req, res ) {
+    async postCustomers( req, res ) {
 
         if(! req.body.name ) return res.status( 401 ).json( { 'error': 'Nome inválido!' } )
         if(! req.body.email ) return res.status( 401 ).json( { 'error': 'e-mail inválido!' } )
 
-        const resume = JSON.parse( await getFile( 'Iugu/Response/post-costumers' ) )
+        const resume = JSON.parse( await getFile( 'Iugu/Response/post-customers' ) )
 
         return res.status( 200 ).json( resume )
     }

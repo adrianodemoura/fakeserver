@@ -10,12 +10,13 @@ routes.get( "/get-citys-list",     AuthBasic, ( req, res ) => { require( `./Syst
 
 // IUGU - GET
 routes.get( "/v1",                            ( req, res ) => { require( `./System/Painel` ).index( req, res ) } )
-routes.get( "/v1/costumers/*",     AuthBasic, ( req, res ) => { require( './Iugu/customers' ).getCostumersId( req, res )  } )
-routes.get( "/v1/costumers",       AuthBasic, ( req, res ) => { require( './Iugu/customers' ).getCostumers( req, res )  } )
+routes.get( "/v1/customers/*",     AuthBasic, ( req, res ) => { require( './Iugu/customers' ).getCustomersId( req, res )  } )
+routes.get( "/v1/customers",       AuthBasic, ( req, res ) => { require( './Iugu/customers' ).getCustomers( req, res )  } )
+routes.get( "/v1/plans/*",         AuthBasic, ( req, res ) => { require( './Iugu/customers' ).getPlanId( req, res )  } )
 routes.get( "/v1/plans",           AuthBasic, ( req, res ) => { require( './Iugu/customers' ).getPlans( req, res )  } )
 routes.get( "/v1/subscriptions",   AuthBasic, ( req, res ) => { require( './Iugu/customers' ).getSubscriptions( req, res )  } )
 // IUGU - POST
-routes.post( "/v1/costumers",      AuthBasic, ( req, res ) => { require( './Iugu/customers' ).postCostumers( req, res )  } )
+routes.post( "/v1/customers",      AuthBasic, ( req, res ) => { require( './Iugu/customers' ).postCustomers( req, res )  } )
 routes.post( "/v1/plans",          AuthBasic, ( req, res ) => { require( './Iugu/customers' ).postPlans( req, res )  } )
 routes.post( "/v1/subscriptions",  AuthBasic, ( req, res ) => { require( './Iugu/customers' ).postSubscriptions( req, res )  } )
 routes.post( "/v1/payment-token",  AuthBasic, ( req, res ) => { require( './Iugu/customers' ).postPaymentToken( req, res )  } )
