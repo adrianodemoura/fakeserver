@@ -10,7 +10,7 @@ describe( "sobre o serviço post-costumers", () => {
     it ( `Deve retornar o ERRO ao tentar criar um cliente sem name e e-mail`, async() => {
 
         await request( app )
-        .post( `/v1/costumers` )
+        .post( `/v1/customers` )
         .set( "Content-type", "application/json" )
         .set( "Authorization", `Basic ${process.env.APP_TOKEN_IUGU}` )
         .then( ( res ) => {
@@ -28,7 +28,7 @@ describe( "sobre o serviço post-costumers", () => {
         }
 
         await request( app )
-        .post( `/v1/costumers` )
+        .post( `/v1/customers` )
         .send( clientData )
         .set( "Content-type", "application/json" )
         .set( "Authorization", `Basic ${process.env.APP_TOKEN_IUGU}` )
