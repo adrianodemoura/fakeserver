@@ -10,13 +10,13 @@ class Customers {
 
     async getCustomersId( req, res ) {
 
-        const resume = JSON.parse( await getFile( 'Iugu/Response/get-costumers-id' ) )
+        const resume = JSON.parse( await getFile( 'Iugu/Response/get-customers-id' ) )
 
         return res.status( 200 ).json( resume )
     }
 
     async getCustomers( req, res ) {
-        const resume = JSON.parse( await getFile('Iugu/Response/get-costumers-list') )
+        const resume = JSON.parse( await getFile('Iugu/Response/get-customers-list') )
 
         return res.status( 200 ).json( resume )
     }
