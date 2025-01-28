@@ -14,10 +14,11 @@ describe( "sobre o serviço get-costumers-id", () => {
         }
 
         await request( app )
-        .get( `/v1/costumers/${params.id}` )
+        .get( `/v1/customers/${params.id}` )
         .set( "Content-type", "application/json" )
         .set( "Authorization", `Basic ${process.env.APP_TOKEN_IUGU}` )
         .then( ( res ) => {
+
             expect( res.status ).toBe( 200 )
             expect( res.body.id ).toBe( params.id )
         } )
